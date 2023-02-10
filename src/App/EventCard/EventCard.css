@@ -1,0 +1,53 @@
+.availableEvent {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid #9aaed1;
+  border-radius: 10px;
+  background: #dde8fa;
+}
+
+.disabledEvent {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid #9aaed1;
+  border-radius: 10px;
+  background: #dde8fa;
+  opacity: 0.7;
+}
+
+.eventAvatar {
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  border-right: 2px solid black;
+}
+
+.eventBody {
+  padding-left: 20px;
+}
+
+.eventHeading {
+  font-size: 16;
+  font-weight: bold;
+  margin-bottom: 5;
+}
+
+.selectButton {
+  margin-top: 10px;
+  background-color: #d9e7d6;
+  border: 2px solid #a3c18f;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeButton {
+  margin-top: 10px;
+  background-color: #f1d0cd;
+  border: 2px solid #b87979;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
